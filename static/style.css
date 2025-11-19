@@ -46,7 +46,7 @@ nav {
     transition: 0.3s;
 }
 
-.nav-enlace:hover {
+.nav-enlace:hover, .footer-item a:hover {
     cursor: pointer;
     color: var(--color-acento);
     transition: 0.3s;
@@ -58,7 +58,7 @@ nav {
     transition: 0.2s;
 }
 
-.nav-icono:hover, #burguer:hover  {
+.nav-icono:hover, #burguer:hover{
     cursor: pointer;
     transform: scale(1.1);
     transition: 0.2s;
@@ -121,15 +121,32 @@ footer {
     width: 100%;
     height: 125px;
     padding-top: 30px;
+    padding-bottom: 30px;
     padding-left: 25px;
+    padding-right: 25px;
     position: absolute;
     display: inline-flex;
     flex: 1;
     justify-content: space-between;
 }
 
+.footer-item {
+    display: flex;
+    align-items: center;
+}
+
+.footer-item a {
+    color: white;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
 .footer-icono {
     background-color: white;
     border-radius: 50%;
-    padding: 15px;
+    margin-right: 10px;
+    width: 60px;
+    height: 60px;
+    align-content: center;
+    text-align: center;
 }
