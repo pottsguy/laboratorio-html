@@ -5,4 +5,4 @@
 - [x] Nuevas collecciones
 - [x] Pie
 - [ ] Enlaces
-- [ ] Posicionamiento
+- [ ] Posicionamiento# laboratorio-html
