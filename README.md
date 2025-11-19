@@ -4,5 +4,5 @@
 - [x] Cabecera
 - [x] Nuevas collecciones
 - [x] Pie
-- [ ] Enlaces
-- [ ] Posicionamiento# laboratorio-html
+- [x] Enlaces
+- [x] Posicionamiento# laboratorio-html
